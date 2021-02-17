@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <div class="jumbotron">
+    <h1 class="display-4" id="call-to-action">JUNIOR SUMMER CODING LEADERSHIP ACADEMY: SIGN UP NOW!</h1>
+    <img id="TXT" src="./assets/TXT Logo.png">
+    <h1 id="lil">LEARN. INNOVATE. LEAD.</h1>
+    <p id="lead">Learn how to design and code your own websites using HTML, CSS, and JavaScript.</p>
+    <hr class="my-4">
+    <h2 id="want-to-sign-up">Want to sign up?</h2>
+
+
+    <input type="text" id="txt"name="txt" onclick="this.value=''"/>
+    <button id="confirm" onclick="getAndSetVal();">Confirm Name</button>
+    <input type="text" id="txt2"name="txt" onclick="this.value=''"/>
+    <button onclick="window.location.href='https://jrscla.exploringtech.org/auth/'"id="apply-now" class="btn btn-primary btn-lg" href="#" 
+    role="button">Apply Now</button>
+    </div>
+  <div class="container">
+    <div class="row">
+      <div id="Why-join" class="col-sm">
+          <img id="jr-scla"src="./assets/JR SCLA.jpg">
+          <h1 class="headers">Why Join Junior SCLA?</h1>
+        <p>Joining the Junior Sumer Coding Leadership Academy can allow you to learn new skills in tech and how to 
+        one day arrive at large tech orginzations and companies. You will learn Leadership skills, CS skills, Design Thinking
+        Skills, and Entrepreneural/ Project Management Skills. Learning how to design and code with others 
+        can allow you not to only grow as youth but as leaders. These skills are essential when solving the problems in 
+        your community.</p>
+        <p>
+        TXT works with students to meet the challenges of adulthood to achieve their full potentials. In Junior SCLA youth like you discover their strengths and weaknesses. The program encourages
+        you to work in groups and engage in good faith arguments to encourage exponential personal growth. TXT programs 
+        foster significant improvements in self-advocacy, community responsibility, control of emotions, and much more.
+        </p>
+        <p>
+        A full-stack developer is comfortable working with all the technologies required to develop an idea into a 
+        finished product. During this program students learn to code both the front and back ends of their web or 
+        mobile applications. TXT believes that by teaching you how to study coding languages, you can make a better 
+        decision of becoming a Computer Science major.
+        </p>
+        <p>
+        TXT teaches students to use the Business Model Canvas where they learn to develop a value proposition, identify 
+        their target market, collect and analyze data, and more. The program also teaches students to plan strategically
+        and to develop professional relationships and partnerships.
+        </p>
+        <img id="TXT-class" src="./assets/TXT Speech.jpg">
+      </div>
+      <div id="My-experience" class="col-sm">
+          <img id="Profile"src="./assets/JR SCLA Profile.jpg">
+        <h1 class="headers">Gabriel Conde/TXTER</h1>
+        <p>"I joined TXT through the Summer Coding Leadership Acedemy and it honestly changed my life.
+        I have learned skills such as how to speak up and solve problems in my own community of Los Angeles.
+        Joining the program allowed me to realize my own potential when it came to leadership. Here at TXT
+        we say that "Nothing is hard, just alot of work". This is so true especially when it comes to coding, design, 
+        and any obstacles you encounter in life. Before joining TXT, I was a shy and reserved kid. TXT has given
+        me the confidence in myself and the confidence to pursue my own dreams."</p>
+        
+        <img id="TXT-speech"src="https://durfee.org/wp-content/uploads/2016/05/urban-txt.jpg">
+        <img id="TXT-talk" src="./assets/TXT talk.jpg">
+      </div>
+      <div id="Become-Part-of-TXT" class="container-fluid">
+        <h1 class="headers">Become part of the TXT Family</h1>
+        <p id="TXT-Family">
+        Join the Junior SCLA program, SCLA program, and participate in the HustleN'Code Hackathon
+        to represent youth of color in our communities and  lead a future of software-engineers and
+        entepeneurs who can push towards great heights and a better future.
+        </p>
+        <button onclick="window.location.href='https://exploringtech.org/home'"id="visit-TXT" class="btn btn-primary btn-lg" href="#" 
+        role="button">Visit the TXT Website</button>
+      </div>
+      <div class="col-sm">
+        <h1 id="What-is-HTML"class="headers">What is HTML?</h1>
+        <img id="HTML"src="./assets/HTML5 Logo.png">
+        <p id="HTML-paragraph">HTML stands for "Hypertext Markup Language". It is the standard markup language for documents designed
+           to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets
+           (CSS) and scripting languages such as JavaScript.
+        </p>
+      </div>
+      <div id="What-is-CSS"class="col-sm">
+        <h1 class="headers">What is CSS?</h1>
+        <img id="CSS"src="./assets/CSS Logo.png">
+        <p id="CSS-paragraph">CSS stands for “Cascading Style Sheets”. Cascading Style Sheets is a style sheet language used for
+           describing the presentation of a document written in a markup language such as HTML. This language 
+           contains coding elements and is composed of these “cascading style 
+           sheets” which are called CSS files.
+        </p>
+      </div>
+      <div id="What-is-JS"class="col-sm">
+        <h1 class="headers">What is JS?</h1>
+        <img id="JS"src="./assets/JavaScript Logo.png">
+        <p id="JS-paragraph">JavaScript is a text-based programming language used both on the client-side and server-side that allows
+           you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web 
+           pages, JavaScript gives web pages interactive elements that engage a user.
+        </p>
+      </div>
+      <div class="container">
+      </div>
+    </div>
+  </div>_
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+            
+        // set value using id
+        //document.getElementById('txt').value = "Text Here";
+        
+        // set value using input
+        document.getElementsByTagName('input')[0].value = "First and Last Name";
+        
+        function getAndSetVal()
+        {
+            var txt1 = document.getElementById('txt').value;
+            document.getElementById('txt2').value = txt1;
+            alert(txt1)
+        }
+        
+        // get value
+        function getInputVal()
+        {
+         var txt = document.getElementById('txt').value;
+         alert(txt);
+        }
+        
+    </script>
+
+</body>
+</html>

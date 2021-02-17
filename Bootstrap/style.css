@@ -1,0 +1,189 @@
+.jumbotron{
+    background-color:rgb(0, 133, 190);
+    background-image: url(./assets/website\ background.jpg);
+    background-size: cover;
+;
+}
+#TXT{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; bottom: 40px;
+}
+#lil{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    position: relative; bottom: 10px;
+    font-weight: 455;
+}
+#call-to-action{
+    color: white;
+    position: relative; bottom: 40px;
+    font-weight: 600;
+    font-size: 65px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#apply-now{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; top: 50px;
+    color:white;
+    background-color:rgb(0, 102, 246); 
+}
+#want-to-sign-up{
+    color: white;
+    text-align: center;
+    position: relative; bottom: 18px;
+    font-size: 35px;
+}
+#lead{
+    color: rgb(255, 255, 255);
+    position: relative; bottom: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+#jr-scla{
+    width:20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float: left;
+    border-radius: 25%;
+    position: relative; bottom: 30px;
+}
+#Why-join{
+    position: relative; top: 30px;
+}
+#Profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    float: left;
+    border-radius: 25%;
+    background-image: url(./assets/Coding-Html-icon.png);
+    background-position:right;
+    position: relative; bottom: 30px;
+}
+#My-experience{
+    position: relative; top: 30px;
+}
+#txt{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; bottom: 15px;
+    border-color: rgb(255, 255, 255); 
+    background-color:  rgb(0, 102, 246); 
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    padding: 5px;
+    width: 20%;
+}
+#confirm{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(255, 255, 255); 
+    background-color: rgb(0, 102, 246); 
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: double;
+    padding: 5px;
+    width: 20%;
+}
+#txt2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative; top: 15px;
+    border-color:rgb(255, 255, 255); 
+    background-color: rgb(0, 102, 246);  
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: double;
+    padding: 5px;
+    width: 20%;
+}
+.headers{
+    color:rgb(0, 163, 217);  
+}
+#Become-Part-of-TXT{
+    position: relative; bottom: 60px;
+
+}
+#visit-TXT{
+position: relative; top:30px;
+display: block;
+width: 45%;
+}
+#TXT-class{
+    width: 100%;
+    border-radius: 25%;
+}
+#TXT-speech{
+    width: 95%;
+    border-radius: 25%;
+}
+#TXT-talk{
+    width: 90%;
+    position: relative; top: 40px;
+    border-radius: 25%;
+    float: right;
+}
+#TXT-Family{
+    text-align: left;
+    width: 50%;
+}
+#What-is-CSS{
+    text-align:center;
+    width: 35%;
+    float: left;
+}
+#CSS{
+    width: 65%;
+    position: relative; bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#What-is-HTML{
+    text-align:center;
+}
+#HTML{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#What-is-JS{
+    text-align:center;
+    width: 35%;
+}
+#JS{
+    width: 90%;
+    position: relative;top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+#JS-paragraph{
+    position: relative; top:20px; 
+}
+#HTML-paragraph{
+    position: relative; top:10px;
+    text-align: center;
+}
+#CSS-paragraph{
+    position: relative; bottom:8px;
+}
